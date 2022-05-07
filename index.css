@@ -1,0 +1,97 @@
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+header {
+    width: 100vw;
+    height: 70px;
+    max-height: 70px;
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #555;
+}
+
+header > h1 {
+    font-size: 1.5em;
+}
+
+header > nav > button {
+    background-image: linear-gradient(to bottom, #333, #444);
+    padding: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #aaa;
+    transition: color .2s linear;
+}
+
+header > nav > button:active {
+    background-image: linear-gradient(to bottom, #444, #555);
+    color: #0080ff;
+}
+
+main {
+    padding: 10px;
+}
+
+div#codeExample {
+    background-color: #222;
+    color: #aaa;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.keyword {
+    color: #0080ff;
+}
+
+.constant {
+    color: #E86E6E;
+}
+
+.pontuation {
+    color: #A9EAFF;
+}
+
+footer {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #0080ff;
+    transition: color .2s linear;
+}
+
+a:hover {
+    color: #6EABE8;
+}
+
+p.lorem::after {
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+}
+
+p.double-lorem::after {
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+}
+
+p.triple-lorem::after {
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+}
